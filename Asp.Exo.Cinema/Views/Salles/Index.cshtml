@@ -1,0 +1,65 @@
+﻿<ul>
+    <li>
+        <div>
+            <h3>@Html.ActionLink("Salle numéro 1","Reserver", new { id = 1 })</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>12h00</th>
+                        <th>14h30</th>
+                        <th>18h00</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Html.ActionLink("Jurassic Park","Details", new { controller = "Films", id = 1})</td>
+                        <td>@Html.ActionLink("Matrix", "Details", new { controller = "Films", id = 2 })</td>
+                        <td>@Html.ActionLink("Short Circuit", "Details", new { controller = "Films", id = 3 })</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </li>
+    <li>
+        <div>
+            <h3>@Html.ActionLink("Salle numéro 2", "Reserver", new { id = 2 })</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>12h00</th>
+                        <th>14h30</th>
+                        <th>18h00</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Html.ActionLink("ET", "Details", new { controller = "Films", id = 6 })</td>
+                        <td>@Html.ActionLink("Alien", "Details", new { controller = "Films", id = 4 })</td>
+                        <td>@Html.ActionLink("Driven", "Details", new { controller = "Films", id = 5 })</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </li>
+    <li>
+        <div>
+            <h3>@Html.ActionLink("Salle numéro 3", "Reserver", new { id = 3 })</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>12h00</th>
+                        <th>14h30</th>
+                        <th>18h00</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Html.ActionLink("It", "Details", new { controller = "Films", id = 7 })</td>
+                        <td>@Html.ActionLink("Jurassic Park", "Details", new { controller = "Films", id = 1 })</td>
+                        <td>@Html.ActionLink("ET", "Details", new { controller = "Films", id = 6 })</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </li>
+</ul>

@@ -1,0 +1,11 @@
+﻿<h2>Votre séance dans notre salle n°@ViewBag.SalleNumber</h2>
+<form method="post">
+    <label>Quelle séance voulez-vous réserver?</label>
+    <input type="number" hidden value="@ViewBag.SalleNumber"/>
+    <select name="seance">
+        <option value="1">12h00 : @ViewBag.Film1</option>
+        <option value="2">14h30 : @ViewBag.Film2</option>
+        <option value="3">18h00 : @ViewBag.Film3</option>
+    </select>
+    <input type="submit" value="Valider" />
+</form>

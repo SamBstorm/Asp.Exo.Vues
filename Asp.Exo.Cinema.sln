@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asp.Exo.Cinema", "Asp.Exo.Cinema\Asp.Exo.Cinema.csproj", "{B1002B8F-FB2E-4883-813A-F62EB262E743}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1002B8F-FB2E-4883-813A-F62EB262E743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1002B8F-FB2E-4883-813A-F62EB262E743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1002B8F-FB2E-4883-813A-F62EB262E743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1002B8F-FB2E-4883-813A-F62EB262E743}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF014CD5-4735-457B-BB43-ABD0F234C749}
+	EndGlobalSection
+EndGlobal
